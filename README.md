@@ -10,7 +10,7 @@
 ### How to Run?
 1. Clone or download the project from repository https://github.com/muhali16/hatta-digital-library-laravel
 2. Open project to the code editor
-3. Run ``composer install`` for installing the vendor
+3. Run ``composer install && npm install`` for installing the vendor adn javascript dependencies
 4. Run ``php artisan key:generate`` for generating the application key
 5. Run ``php artisan storage:link`` for linking the public storage so that can be accessible on url
 6. Duplicate ``.env.example`` file into ``.env`` and configure the database config use mysql.
